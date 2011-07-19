@@ -104,6 +104,10 @@ obj-$(CONFIG_ADAPTEC_STARFIRE) += starfire.o
 obj-$(CONFIG_RIONET) += rionet.o
 obj-$(CONFIG_SH_ETH) += sh_eth.o
 obj-$(CONFIG_STMMAC_ETH) += stmmac/
+<<<<<<< HEAD
+=======
+obj-$(CONFIG_GAN_ETH) += gan-eth.o
+>>>>>>> c9befb0... ganeth: better gannet device
 
 #
 # end link order section
